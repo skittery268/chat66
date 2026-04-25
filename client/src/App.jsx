@@ -3,6 +3,7 @@ import Auth from './components/Auth';
 import Sidebar from './components/Sidebar';
 import Chat from './components/Chat';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Sidebar />
       <Chat />
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 }
